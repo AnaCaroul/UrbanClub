@@ -1,0 +1,383 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #680279;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid: 100%;
+    height: 46px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: baseline;
+    justify-content: center;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.grid1 > a {
+    text-decoration: none;
+    color: #680279;
+}
+
+
+.tituloDoSite {
+    color: #680279;
+    font-family:'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    text-shadow: 0px 4px 4px
+    rgba(0, 0, 0, 0.22);
+    margin-top: 6px;
+    margin-left: 20px;
+
+}
+
+.pages  li {
+    font-family: 'Lato', sans-serif;
+    font-family: 18px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    display: inline;
+    margin-right: 10px;
+    margin-top: 0;
+    align-items: center;
+}
+
+.l1 > a {
+    text-decoration: none;
+    color: black;
+}
+
+#sale a {
+    color: #ec002a;
+}
+
+.lista {
+    display: inline;   
+    list-style: none;
+}
+
+.l1:hover {
+ color: black;
+ font-weight: 800;
+}
+
+#sale:hover{
+    font-weight: 800;
+}
+
+.Login li  {
+    display: inline;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-left: 17px;
+    text-decoration: none;
+}
+
+#login {
+    text-decoration: none;
+    color: #251842;
+    margin-left: 2px;
+}
+
+.l2 > a {
+    text-decoration: none;
+}
+
+.footer {
+    background: rgba(34, 2, 39, 0.96);
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: -2300px;
+
+}
+
+
+.footer1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+    width: 100%;
+
+}
+
+#UC {
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 00.02em;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+.tiles2 {
+ font-size: 15.5px;
+ font-style: normal;
+ font-weight: 600;
+ letter-spacing: 0.01em;
+ font-family: 'Lato';
+color: #ffffff;
+margin-top: 30px;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+#redes {
+    display: grid;
+    color:#d1cccc;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'Lato';
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.txt {
+    color:#d1cccc;
+    font-family: 'Lato';
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.floatimg {
+    margin-top: -250px;
+}
+
+.pagamento {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    font-family: 'Lato';
+   color: #ffffff;
+}
+
+.ultimatxt {
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#d1cccc;
+    
+}
+
+
+.pageInicial {
+    width: 100%;
+    left: 0;
+    background-color: #f7f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15.5px;
+    font-style: normal;
+    position: absolute;
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 100px 25px 100px;
+    align-items: center;
+    justify-items: start;
+    
+}
+
+.pageInicial a{
+    text-decoration: none;
+}
+
+.pinicial {
+    color: #bdbdbd;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.Pfeminino {
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#SetaCinza {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.gridpecas {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 600px 400px auto ;
+    position: absolute;
+    margin-top: 110px;
+
+}
+
+#nossaspecas {
+    font-size: 16px;
+    font-family: 'Work Sans'; 
+    color: #343434;
+    letter-spacing: 0.2px;
+    font-style: normal;
+    margin-left: 200px;
+    font-weight: 400;
+
+}
+
+#views {
+    color: black;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Open Sans'; 
+    letter-spacing: 0.2px;
+    font-style: normal;
+
+}
+
+.views {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnPopular {
+    display: grid;
+    grid-template-columns: 64px 20px;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: #737373;
+    font-family: 'Open Sans'; 
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-style: normal;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    line-height: 4px;
+    cursor: pointer;
+}
+
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 100%;
+    position: absolute;
+    margin-top: 190px;
+    left: 0;
+}
+
+.grid-conteiner h2 {
+    color: black;
+    letter-spacing: 0.1em;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.colors {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#imgtamanhos {
+    margin-left: 10px;
+}
+
+.grid-produtos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: space-evenly;
+   margin-top: 20px;
+   row-gap: 55px;
+}
+
+.titulo {
+    color: #25272d;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.marca {
+    color: #737373;
+    font-size: 15px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.preco {
+    color: #680279;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.grid-produtos img {
+    cursor: pointer;
+}
+
+#img {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+#img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.setas {
+    display: grid;
+    grid-template-columns: 10px 80px 30px;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-left: 190px;
+}
+
+.setas p {
+    color: black;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+}

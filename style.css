@@ -1,0 +1,611 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #680279;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid: 100%;
+    height: 46px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: sticky;
+    align-items: baseline;
+    justify-content: center;
+    background-color: #ffffff;
+    z-index: 3;
+}
+
+.grid1 > a {
+    text-decoration: none;
+    color: #680279;
+}
+
+
+.tituloDoSite {
+    color: #680279;
+    font-family:'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    text-shadow: 0px 4px 4px
+    rgba(0, 0, 0, 0.22);
+    margin-top: 6px;
+    margin-left: 20px;
+
+}
+
+.pages  li {
+    font-family: 'Lato', sans-serif;
+    font-family: 18px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    display: inline;
+    margin-right: 10px;
+    margin-top: 0;
+    align-items: center;
+}
+
+.l1 > a {
+    text-decoration: none;
+    color: black;
+}
+
+#sale a {
+    color: #ec002a;
+}
+
+.lista {
+    display: inline;   
+    list-style: none;
+}
+
+.l1:hover {
+ color: black;
+ font-weight: 800;
+}
+
+#sale:hover{
+    font-weight: 800;
+}
+
+.Login li  {
+    display: inline;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-left: 17px;
+    text-decoration: none;
+}
+
+#login {
+    text-decoration: none;
+    color: #251842;
+    margin-left: 2px;
+}
+
+.l2 > a {
+    text-decoration: none;
+}
+
+.promocao{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Lato',sans-serif;
+    left: 0;
+    margin-top: 3px;
+    height: 35px;   
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+}
+
+#carrinho {
+    margin-right: 10px;
+}
+
+.banner {
+    left: 0;
+    position: absolute;
+    background-image: url(imgs/sombreado.png);
+    width: 100%;
+    margin-top: 38px;
+    height: 60vh;
+}
+
+#quadriculado {
+    position: relative;
+}
+
+.h1 {
+    margin-top: -47vh;
+    margin-left: 34px;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+#linha {
+ margin-left: 80px;
+}
+
+.textoInicial {
+    font-family: 'Lato';
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 37px;
+    line-height: 19px;
+
+}
+
+#tenisDeCapa {
+    float: right;
+    position: relative;
+    margin-top: -310px;
+}
+
+#surf {
+    position: relative;
+    float: right;
+    margin-top: -110px;
+    margin-right: -35px;
+}
+
+#skate {
+    position: relative;
+    float: right;
+    margin-top: -260px;
+    margin-right: -40px;
+
+}
+
+#logos {
+    margin-top: 450px;
+}
+
+#logo {
+    display: grid;
+    justify-content: center;
+}
+
+.inspircao {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+#tituloInspo {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+#Pinspo {
+    font-family: 'Lato', sans-serif;
+    color: #1b2430;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+#btnVejaMais {
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: #1b2430;
+    border: 1px solid black;
+    font-weight: 600;
+    width: 90px;
+    margin-top: 18px;
+    cursor: pointer;
+
+}
+
+.beneficios {
+    left: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+#line2 {
+    float: right;
+}
+
+.bene {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #202020;
+    line-height: 46px;
+    font-style: normal;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.caixas {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.item-caixa {
+    background-color: #f7f5f5;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 250px;
+    height: 130px;
+}
+
+
+#tile {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 13px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    
+}
+
+#p {
+    color: #777777;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 18px;
+    margin-left: 20px;
+}
+
+#vector {
+    float: left;
+   margin-top: 22px;
+   margin-left: 20px;
+   margin-bottom: 0;
+   margin-right: 7px;
+}
+
+#divisao {
+    margin-top: 50px;
+    width: 100%;
+    height: 52px;
+    text-align: center;
+}
+
+.queridinhos {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: capitalize;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    color: #202020;
+    margin-top: 30px;
+}
+
+.categoria {
+    display: grid;
+    margin-top: 20px;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.lista2 {
+    text-decoration: none;
+
+}
+
+.lista2, .iten {
+    display: inline;
+    font-size: 13.5px;;
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    font-weight: 900;
+    color: #777777;
+    line-height: 19px;
+    margin-right: 40px;
+}
+
+.prod {
+    display: inline;
+    font-size: 13.5px;;
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    font-weight: 900;
+    color:#000000;
+    line-height: 19px;
+    margin-right: 40px;
+}
+
+.btncomprar{
+    border: 2px solid #1e2832;
+    background-color: #1e2832;
+    font-family: 'Open Sans';
+    font-size: 13.5px;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-style: normal;
+    color: #ffffff;
+    height: 20px;
+    margin-left: 710px;
+    text-align: center;
+
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    margin-top: 10px;
+    column-gap: 20px;
+    margin-bottom: 110px;
+    cursor: pointer;
+}
+
+.tileProdutos {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #000000;
+    line-height: 18px;
+    display: inline;
+    cursor: pointer;
+
+}
+
+
+#p1 {
+    color: #777777;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 18px;
+    font-weight: 700;
+    display: inline;
+}
+
+#p2 {
+    color: #000000;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 18px;
+    font-weight: 800;
+    display: inline;
+    margin-left: 110px;
+}
+
+#p3 {
+    color: #777777;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 18px;
+    font-weight: 800;
+    display: inline;
+    margin-left: 90px;
+    text-decoration:line-through;
+}
+
+#p4 {
+    color: #ec002a;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 18px;
+    font-weight: 800;
+    display: inline;
+    margin-left: 5px;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    column-gap: 20px;
+    margin-bottom: 50px;
+}
+
+
+.prod1 {
+    transition: all 0.5s;
+}
+
+.prod1:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 9px 5px rgba(0,0,0,.5));
+}
+
+.g {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.g:hover {
+    opacity: 0.7;
+    background: rgba(26, 18, 18, 0.7)
+}
+
+.h {
+    font-family: 'Lato';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.looks {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#looks {
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.ImgLooks {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 60px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+}
+
+#aumento {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+#aumento:hover {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+.footer {
+    background: rgba(34, 2, 39, 0.96);
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: -3400px;
+
+}
+
+
+.footer1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+    width: 100%;
+
+}
+
+#UC {
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 00.02em;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+.tiles2 {
+ font-size: 15.5px;
+ font-style: normal;
+ font-weight: 600;
+ letter-spacing: 0.01em;
+ font-family: 'Lato';
+color: #ffffff;
+margin-top: 30px;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+#redes {
+    display: grid;
+    color:#d1cccc;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'Lato';
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.txt {
+    color:#d1cccc;
+    font-family: 'Lato';
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.floatimg {
+    margin-top: -250px;
+}
+
+.pagamento {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    font-family: 'Lato';
+   color: #ffffff;
+}
+
+.ultimatxt {
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#d1cccc;
+
+}
